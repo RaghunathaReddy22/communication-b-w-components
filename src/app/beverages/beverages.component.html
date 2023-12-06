@@ -1,0 +1,7 @@
+<div class="child">
+    <h2>child</h2>
+    <p>Todays beverage:<strong>{{Beverages }}</strong></p>
+    <label for="beverage-intput">add a beverage:</label>
+    <input type="text" id="beverage-input" #newBeverage>
+     <button (click)="addviewBeverage(newBeverage.value); newBeverage.value=''">ADD </button> 
+</div> 

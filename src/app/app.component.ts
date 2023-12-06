@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sharing-data-between-components';
+  currentBeverage="cofee";
+  beverages=['milk','tea','cofee','juice'];
+  addBeverage(newBeverage:string){
+    this.beverages.push(newBeverage);
+  }
 }
